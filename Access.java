@@ -9,7 +9,6 @@ public class Access {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.out.println("this is Access class");
 
 		System.setProperty("webdriver.chrome.driver", "D:\\java program\\Test\\Driver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
